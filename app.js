@@ -185,13 +185,12 @@ function playAlarm() {
     // Browser notification
     if (Notification.permission === 'granted') {
         const messages = {
-            pomodoro: '⏰ Waktu fokus selesai! Saatnya istirahat.',
-            shortBreak: '☕ Istirahat selesai! Saatnya fokus lagi.',
-            longBreak: '🎉 Istirahat panjang selesai! Siap untuk sesi baru?',
+            pomodoro: 'Waktu fokus selesai! Saatnya istirahat.',
+            shortBreak: 'Istirahat selesai! Saatnya fokus lagi.',
+            longBreak: 'Istirahat panjang selesai! Siap untuk sesi baru?',
         };
         new Notification('Pomodoro Timer', {
             body: messages[state.currentMode],
-            icon: '🍅',
         });
     }
 }

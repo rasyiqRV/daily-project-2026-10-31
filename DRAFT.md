@@ -1,4 +1,4 @@
-# 🍅 Pomodoro Timer Web App
+# Pomodoro Timer Web App
 
 ## Deskripsi
 Aplikasi web Pomodoro Timer dengan antarmuka modern dan gelap. Membantu pengguna mengatur waktu fokus dan istirahat menggunakan teknik Pomodoro. Dilengkapi dengan fitur daftar tugas, statistik sesi, dan pengaturan yang dapat dikustomisasi.
@@ -9,15 +9,15 @@ Aplikasi web Pomodoro Timer dengan antarmuka modern dan gelap. Membantu pengguna
 - **JavaScript (Vanilla)** — Logika timer, Web Audio API untuk alarm, Notification API, dan localStorage
 
 ## Fitur
-- ⏱️ Timer Pomodoro dengan 3 mode: Fokus, Istirahat Pendek, Istirahat Panjang
-- 🎯 Progress ring animasi (SVG)
-- 📝 Daftar tugas terintegrasi (CRUD, tersimpan di localStorage)
-- 📊 Statistik sesi (jumlah sesi selesai & total waktu fokus)
-- ⚙️ Pengaturan durasi yang dapat dikustomisasi
-- 🔔 Notifikasi browser & audio beep saat timer selesai
-- ⌨️ Keyboard shortcuts (Space = mulai/jeda, R = reset)
-- 🌙 Dark mode by default
-- 📱 Responsive design
+- Timer Pomodoro dengan 3 mode: Fokus, Istirahat Pendek, Istirahat Panjang
+- Progress ring animasi (SVG)
+- Daftar tugas terintegrasi (CRUD, tersimpan di localStorage)
+- Statistik sesi (jumlah sesi selesai dan total waktu fokus)
+- Pengaturan durasi yang dapat dikustomisasi
+- Notifikasi browser dan audio beep saat timer selesai
+- Keyboard shortcuts (Space = mulai/jeda, R = reset)
+- Dark mode by default
+- Responsive design
 
 ## Cara Menjalankan
 1. Buka file `index.html` langsung di browser, atau
